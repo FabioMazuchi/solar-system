@@ -1,0 +1,8 @@
+.mission-card {
+	padding: 7px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	flex-basis: 230px;
+	margin-bottom: 5px;
+}

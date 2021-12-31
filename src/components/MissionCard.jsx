@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import '../estilos/MissionCard.css';
 
 class MissionCard extends Component {
   render() {
     const { name, year, country, destination } = this.props;
     return (
-      <div key={ name } data-testid="mission-card">
+      <div key={ name } data-testid="mission-card" className="mission-card">
         <h4 data-testid="mission-name">{name}</h4>
         <p data-testid="mission-year">{year}</p>
         <p data-testid="mission-country">{country}</p>

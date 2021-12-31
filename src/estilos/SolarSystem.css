@@ -1,0 +1,10 @@
+.solar-system {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.solar {
+    display: flex;
+    margin: 20px 0;
+}
