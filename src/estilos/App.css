@@ -8,3 +8,46 @@
   display: flex;
   flex-direction: column;
 }
+
+header {
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1, h2 {
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.solar-system {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.solar {
+  display: flex;
+}
+
+.planet-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.planet-card h4 {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.planet-card img {
+  width: 60%;
+}
+
+.missions {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
