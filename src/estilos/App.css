@@ -1,12 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .container {
-  background-image: url(../images/background.png);
+  background-image: url('../images/background.png');
   display: flex;
   flex-direction: column;
 }

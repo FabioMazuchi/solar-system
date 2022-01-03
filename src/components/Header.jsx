@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../estilos/Header.css';
 
 class Header extends Component {
   render() {

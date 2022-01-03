@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import '../estilos/MissionCard.css';
 
 class MissionCard extends Component {
   render() {
