@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -10,34 +11,81 @@
 }
 
 header {
-  padding: 20px 0;
+  padding: 10px 2%;
   text-align: center;
 }
 
-h1, h2 {
-  color: white;
-  margin-bottom: 15px;
-  text-align: center;
+h1 {
+  color: #D0B75A;
+  letter-spacing: 2px;
+  font-size: 40px;
+  border-bottom: 2px solid;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #D0B75A;
+  letter-spacing: 1px;
 }
 
 .solar-system {
   display: flex;
   flex-direction: column;
-  padding: 20px 0;
+  align-items: center;
+  padding: 40px 0;
 }
 
 .solar {
   display: flex;
+  padding: 20px 2%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
+
+.planet-card:nth-child(1) img {
+  width: 35%;
+}
+
+.planet-card:nth-child(2) img {
+  width: 55%;
+}
+
+.planet-card:nth-child(3) img {
+  width: 55%;
+}
+
+.planet-card:nth-child(4) img {
+  width: 45%;
+}
+
+.planet-card:nth-child(5) img {
+  width: 95%;
+}
+
+.planet-card:nth-child(6) img {
+  width: 95%;
+}
+
+.planet-card:nth-child(6) img {
+  width: 85%;
+}
+
+.planet-card:nth-child(6) img {
+  width: 75%;
+}
+
 
 .planet-card {
   align-items: center;
   display: flex;
   flex-direction: column;
+  flex-basis: 12%;
+  margin-bottom: 20px;
 }
 
 .planet-card h4 {
-  color: white;
+  color: #AE9366;
   font-size: 16px;
   margin-bottom: 8px;
 }
@@ -49,22 +97,63 @@ h1, h2 {
 .missions {
   display: flex;
   flex-direction: column;
-  padding: 20px 0;
+  padding: 20px 0 40px 12px;
+  justify-content: center;
+  align-items: center;
 }
 
 .missions-section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  padding: 0 2%;
+  justify-content: space-evenly;
+  padding: 20px 0;
 }
 
 .mission-card {
-  background-color: white;
+  border:  2px solid #714992;
+  background-color: rgb(55, 21, 75);
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  margin: 7px;
-  padding: 5px;
-  width: 170px;
+  padding: 10px;
+  margin-bottom: 15px;
+  flex-basis: 22%;
+  color: #D0B75A;
+  margin: 0 12px 12px 0;
+  flex-grow: 1;
+  justify-content: space-evenly;
 }
+
+.mission-card h4 {
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+}
+
+@media screen and (max-width: 890px) {
+  .mission-card {
+    flex-basis: 33%;
+  }   
+  .planet-card {
+    flex-basis: 20%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .mission-card {
+   flex-basis: 40%; 
+  }  
+  .planet-card {
+    flex-basis: 35%;
+  } 
+  .planet-card h4 {
+    font-size: 20px;
+  }
+} 
+
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 25px;
+  } 
+  h2 {
+    font-size: 20px;
+  }
+} 
