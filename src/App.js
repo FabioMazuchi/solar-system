@@ -4,16 +4,14 @@ import Missions from './components/Missions';
 import SolarSystem from './components/SolarSystem';
 import './estilos/App.css';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="container">
-        <Header />
-        <SolarSystem />
-        <Missions />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="container">
+      <Header />
+      <SolarSystem />
+      <Missions />
+    </div>
+  );
 }
 
 export default App;
